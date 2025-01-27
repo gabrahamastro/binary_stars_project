@@ -1,2 +1,3 @@
-# binary_stars_project
-The code and report linked to a group project investigating binary stars (2024-25).
+# Binary Stars Group Project
+
+This repository contains the code and report relating to a group project undertaken at Keele University (2024-25) for the module PHY-30006 Astrophysics Group Project and Science Communication. 
