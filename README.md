@@ -17,5 +17,15 @@ The following are files in the `code` directory:
 3. `master_notebook_Gaia_NewFormat.ipynb`: Used to process Gaia data (using the output of analysis of TESS data with `jktebop` to help). Note that this uses the updated version (as of January 2025) of the data output (for reading the previous format, refer to `master_notebook_Gaia_OldFormat.ipynb`.
 4. Again use `jktebop_plots.ipynb` (but now for reading in Gaia data, processed using `jktebop`).
 5. `Overplot_models.ipynb`: For overplotting models generated for green, red and blue Gaia data, along with TESS data.
-6. `CMD_single.ipynb`: For plotting a colour-magnitude diagram (CMD) of the outputted data (where data come from processing the BP, RP and G band data with `jktebop` in task 8.
-7. `CMD_multiple.ipynb`: For plotting a colour-magnitude diagram (CMD) of the outputted data for multiple stars (again from the outputs of `jktebop` task 8).
+6. `CMD_single.ipynb`: For plotting a colour-magnitude diagram (CMD) of the outputted data (where data come from processing the BP, RP and G band data with `jktebop` in task 8. Note it uses the[ MIST model]([url](https://waps.cfa.harvard.edu/MIST/model_grids.html)) `MIST_v1.2_feh_p0.00_afe_p0.0_vvcrit0.0_UBVRIplus.iso`, available from [here]([url](https://waps.cfa.harvard.edu/MIST/data/tarballs_v1.2/MIST_v1.2_vvcrit0.0_UBVRIplus.txz))
+7. `CMD_multiple.ipynb`: For plotting a colour-magnitude diagram (CMD) of the outputted data for multiple stars (again from the outputs of `jktebop` task 8 and the same MIST model data).
+
+## Quick Start
+To get started, first run the following commands:
+```
+pip install lightkuve
+
+pip install astropy
+
+pip install PyAstronomy.pyasl
+```
