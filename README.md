@@ -12,7 +12,7 @@ This project was completed with the guidance, help, advice and many useful resou
 
 ## Workflow
 The following are files in the `code` directory:
-1. `master_notebook_TESS.ipynb`: Used to download TESS data, remove bad data, detrend and save in a format to be used in [`jktebop`]((https://www.astro.keele.ac.uk/jkt/codes/jktebop.html), task 3.
+1. `master_notebook_TESS.ipynb`: Used to download TESS data, remove bad data, detrend and save in a format to be used in [`jktebop`](https://www.astro.keele.ac.uk/jkt/codes/jktebop.html), task 3.
 2. `jktebop_plots.ipynb`: Used to plot data outputted by `jktebop` (for TESS and Gaia data). Note that it assumes a particular format of file name (e.g. `model.out.3` and `lcfit.out.3` for outputted model and data to be fitted respectively).
 3. `master_notebook_Gaia_NewFormat.ipynb`: Used to process Gaia data (using the output of analysis of TESS data with `jktebop` to help). Note that this uses the updated version (as of January 2025) of the data output (for reading the previous format, refer to `master_notebook_Gaia_OldFormat.ipynb`.
 4. Again use `jktebop_plots.ipynb` (but now for reading in Gaia data, processed using `jktebop`).
