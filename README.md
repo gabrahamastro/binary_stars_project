@@ -29,6 +29,8 @@ pip install astropy
 
 pip install PyAstronomy.pyasl
 ```
+`jktebop` can be downloaded from [here](https://www.astro.keele.ac.uk/jkt/codes/jktebop.html), whilst `read_mist_models` is available [here](https://waps.cfa.harvard.edu/MIST/resources.html).
+
 ## Software Versions
 During this project the following software/Python packages were used:
 - [`jktebop`](https://www.astro.keele.ac.uk/jkt/codes/jktebop.html): v43
