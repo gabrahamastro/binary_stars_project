@@ -35,4 +35,4 @@ During this project the following software/Python packages were used:
 - [`lightkurve`](https://lightkurve.github.io/lightkurve/): 2.5.0
 - [`astropy`](https://www.astropy.org): 6.1.4
 - [`PyAstronomy`](https://pyastronomy.readthedocs.io/en/latest/): 0.22.0
-- [`uncertainties`)[https://pythonhosted.org/uncertainties/]: 3.2.2 
+- [`uncertainties`](https://pythonhosted.org/uncertainties/): 3.2.2 
