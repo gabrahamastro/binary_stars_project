@@ -8,7 +8,7 @@ The project aim was to, using Gaia DR3 Epoch photometry and TESS light curves of
 
 ## Acknowledgements 
 
-This project was completed with the guidance, help, advice and many useful resources provided by [Pierre Maxted](https://www.astro.keele.ac.uk/pflm/) (any code attributed to him clearly labelled in the relevant Jupyter notebook and should not use the same licence as this work). 
+This project was completed with the guidance, help, advice and many useful resources provided by [Pierre Maxted](https://www.astro.keele.ac.uk/pflm/).
 
 ## Workflow
 The following are files in the `code` directory:
@@ -29,3 +29,10 @@ pip install astropy
 
 pip install PyAstronomy.pyasl
 ```
+## Software Versions
+During this project the following software/Python packages were used:
+- [`jktebop`](https://www.astro.keele.ac.uk/jkt/codes/jktebop.html): v43
+- [`lightkurve`](https://lightkurve.github.io/lightkurve/): 2.5.0
+- [`astropy`](https://www.astropy.org): 6.1.4
+- [`PyAstronomy`](https://pyastronomy.readthedocs.io/en/latest/): 0.22.0
+- [`uncertainties`)[https://pythonhosted.org/uncertainties/]: 3.2.2 
