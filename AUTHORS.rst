@@ -4,4 +4,4 @@
 
 * `Natnael Musie <https://www.linkedin.com/in/natnaelmusie/>`_
 
-* Brittany Phillips
+* `Brittany Phillips <https://www.linkedin.com/in/brittany-phillips-214761208/>`_
