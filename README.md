@@ -10,6 +10,10 @@ The project aim was to, using Gaia DR3 Epoch photometry and TESS light curves of
 
 This project was completed with the guidance, help, advice and many useful resources provided by [Pierre Maxted](https://www.astro.keele.ac.uk/pflm/).
 
+## Licence
+
+Please note that these works are under copyleft licenses (details in the `LICENCE.md` files within the respective folders).
+
 ## Workflow
 The following are files in the `code` directory:
 1. `master_notebook_TESS.ipynb`: Used to download TESS data, remove bad data, detrend and save in a format to be used in [`jktebop`](https://www.astro.keele.ac.uk/jkt/codes/jktebop.html), task 3.
@@ -20,6 +24,7 @@ The following are files in the `code` directory:
 6. `CMD_single.ipynb`: For plotting a colour-magnitude diagram (CMD) of the outputted data (where data come from processing the BP, RP and G band data with `jktebop` in task 8. Note it uses the [MIST model](https://waps.cfa.harvard.edu/MIST/model_grids.html) `MIST_v1.2_feh_p0.00_afe_p0.0_vvcrit0.0_UBVRIplus.iso`, available from [here](https://waps.cfa.harvard.edu/MIST/data/tarballs_v1.2/MIST_v1.2_vvcrit0.0_UBVRIplus.txz)
 7. `CMD_multiple.ipynb`: For plotting a colour-magnitude diagram (CMD) of the outputted data for multiple stars (again from the outputs of `jktebop` task 8 and the same MIST model data).
 
+The `Report` directory consists of the `.pdf` output and LaTeX files which were used to generate this (using the AAAS Research Note template on Overleaf).
 ## Quick Start
 To get started, first run the following commands:
 ```

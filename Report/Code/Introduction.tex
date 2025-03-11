@@ -1,0 +1,28 @@
+\section{Introduction} \label{sec:Intro}
+The characterisation of eclipsing binaries (EB) is crucial in advancing our understanding of stellar structure and evolution. Light curve analysis allows for the detection of astronomical bodies due to various parameters being directly measurable (orbital periods, stellar masses, \textit{etc.}). \\
+
+PLATO, led by ESA, is designed to conduct precise and accurate photometry to detect transiting exoplanets in the habitable zone and conduct asteroseismology on pre-selected stars. For at least the first two years, PLATO will observe its southern field (LOPS2; \citealp{Rauer24}). With this upcoming mission, a pre-selection of benchmark EBs is essential. Therefore, this project aims to identify EBs which fulfil the PLATO sample specification and act as benchmarks for observation.\\
+%%%%%
+% To fulfil this aim, the objectives are:
+
+% \begin{itemize}
+% \item Filter EBs within the LOPS2 field to find suitable EBs with characteristics which minimise uncertainties, as well as aligning with PLATOs sample specifications.
+
+% \item Process Gaia DR3 and TESS photometry to be used in \verb|jktebop| to be analysed. 
+
+% \item Use \verb|jktebop| to fit the EB geometry, using this geometry fit stellar parameters.
+
+% \item Plot these binary systems on a colour magnitude diagram (CMD).
+
+% \item Compare these findings to that in published literature, comparing to the PLATO mission specifications.
+% \end{itemize}
+%%%%%
+% by filtering EBs within the selected LOPS2 field to find suitable binary systems with characteristics that minimise the requirements in the fitting parameters, as well as aligning with PLATOs sample specifications. Process Gaia DR3 and Tess photometry to be used effectively in jktebop to be fully analysed. Fitting stellar parameters to these processed photometric data to observe how the light curves look. With the final objectives to plot these binary systems on a colour magnitude diagram (CMD) with the primary and secondary components plotted separately and then compare these finding to that in published literature, to overall ensure these stars align with the PLATO specifications for accurate calibration ready for the mission in 2026.\\
+
+The selection of optimal benchmark EB candidates requires high-cadence photometric datasets that can resolve short-period variability, distinguish between EBs and other periodic phenomena, and provide robust constraints on stellar parameters. Gaia DR3 epoch photometry provides precise multi-band flux measurements, enabling the characterisation of EB systems \citep{Gaia23}. This, alongside astrometric solutions, help constrain these parameters. However, low temporal resolution presents challenges in precise characterisation of orbital periods. Complementary to this, TESS provides high-cadence photometry across a wide region of sky, allowing for long-timescale EB observations. Notably, the $120\mathrm{\ s}$ cadence data from the SPOC pipeline, accessible via the MAST archive, allow for analyses of EBs using \verb|jktebop| \citep{Ricker14}.\\
+
+Beyond this, additional characterisation is required. The catalogue from \citet{Prsa22}, alongside TESS and Gaia DR3 data within the LOPS2 field, provides a framework for identifying EBs that align with the scientific objectives of the PLATO mission. 
+
+To further prioritise, samples P1, P2 and P5 are of interest to this Note. P2 and P1 are of absolute magnitudes V $\le 8.8 \mathrm{\ mag}$ and $\le 11 \mathrm{\ mag}$ respectively: the `gold' standard, as they are bright enough for many planetary parameters (mass, density, \textit{etc.}) to be measured, aligning with the overarching aim of the PLATO mission (identifying solar-type star with potentially habitable planets). P5 includes those $V \le 13 \mathrm{\ mag}$ (both dwarfs and subgiants; \citealp{ESA17}).
+
+% The aim of this study is to determine whether the combined use of Gaia DR3 epoch photometry and TESS light curves can effectively characterise eclipsing solar type  binary systems within the LOPS2 field , suitable to act as benchmarks for the calibration of the Plato mission. This is to be done through the various objectives of this project by filtering EBs within the selected LOPS2 field to find suitable binary systems with characteristics that minimise the requirements in the fitting parameters, as well as aligning with PLATOs sample specifications. Process Gaia DR3 and Tess photometry to be used effectively in jktebop to be fully analysed. Fitting stellar parameters to these processed photometric data to observe how the light curves look. With the final objectives to plot these binary systems on a colour magnitude diagram (CMD) with the primary and secondary components plotted separately and then compare these finding to that in published literature, to overall ensure these stars align with the PLATO specifications for accurate calibration ready for the mission in 2026.
