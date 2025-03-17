@@ -10,7 +10,7 @@ The project aim was to, using Gaia DR3 Epoch photometry and TESS light curves of
 
 This project was completed with the guidance, help, advice and many useful resources provided by [Pierre Maxted](https://www.astro.keele.ac.uk/pflm/).
 
-## Licence
+## Licence
 
 Please note that these works are under copyleft licenses (details in the `LICENCE.md` files within the respective folders).
 
